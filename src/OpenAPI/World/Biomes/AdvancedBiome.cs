@@ -95,8 +95,8 @@ namespace OpenAPI.World
             SmoothChunk(openExperimentalWorldProvider, chunk, rth);
             t.Stop();
 
+            Console.WriteLine($"CHUNK SMOOTHING OF {chunk.X} {chunk.Z} TOOK {t.Elapsed}");
             return chunk;
-            // Console.WriteLine($"CHUNK SMOOTHING OF {chunk.X} {chunk.Z} TOOK {t.Elapsed}");
         }
 
         public async Task<ChunkColumn> prePopulate(OpenExperimentalWorldProvider openExperimentalWorldProvider,

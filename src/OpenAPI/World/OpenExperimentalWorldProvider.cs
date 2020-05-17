@@ -156,12 +156,8 @@ namespace OpenAPI.World
             float[] rth)
         {
             var b = BiomeManager.GetBiome(chunk);
-            // var b = new MainBiome();
             var a = await b.prePopulate(openExperimentalWorldProvider,chunk, rth);
             return a;
-            // b.PopulateChunk(chunk, rain, temp);
-
-// Console.WriteLine($"GENERATORED YO BITCH >> {chunk.X} {chunk.Z}");
         }
 
         private void GenerateTree(ChunkColumn chunk, int x, int treebase, int z)
