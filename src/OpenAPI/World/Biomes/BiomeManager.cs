@@ -136,82 +136,21 @@ namespace OpenAPI.World
                     if (tb.LocalID != biome.LocalID&& !tb.BorderChunk)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = tb;
-                        biome.BorderType = 1;
                     }else if(rb.LocalID != biome.LocalID&& !rb.BorderChunk)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = rb;
-                        biome.BorderType = 2;
                     }else if(bb.LocalID != biome.LocalID&& !bb.BorderChunk)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = bb;
-                        biome.BorderType = 3;
                     }else if(lb.LocalID != biome.LocalID && !lb.BorderChunk)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = lb;
-                        biome.BorderType = 4;
                     }
                     else
                     {
                         biome.BorderChunk = false;
                     }
                     
-                    // if (calculate > -1)
-                    // {
-                    //     
-                    //     if(n.LocalID != -1)d[ab.LocalID]++;
-                    //
-                    //
-                    //     var winner = -1;
-                    //     var winner2 = -1;
-                    //     var delta = 0;
-                    //     var delta2 = 0;
-                    //     var difc = 0;
-                    //     for (var i = 0; i < d.Length; i++)
-                    //     {
-                    //         var c = d[i];
-                    //         if (c > 0) difc++;
-                    //         if (delta < c)
-                    //         {
-                    //             winner2 = winner;
-                    //             delta2 = delta;
-                    //             winner = i;
-                    //             delta = c;
-                    //         }
-                    //         else if (delta2 < c)
-                    //         {
-                    //             winner2 = i;
-                    //             delta2 = c;
-                    //         }
-                    //     }
-                    //
-                    //
-                    //     var b = GetBiome(winner);
-                    //     if (difc > 1)
-                    //     {
-                    //         b.BorderChunk = true;
-                    //         b.BorderBiome = GetBiome(winner2);
-                    //         if (winner2 == tb.LocalID)
-                    //             b.BorderType = 1;
-                    //         else if (winner2 == rb.LocalID)
-                    //             b.BorderType = 2;
-                    //         else if (winner2 == bb.LocalID)
-                    //             b.BorderType = 3;
-                    //         else if (winner2 == lb.LocalID)
-                    //             b.BorderType = 4;
-                    //     }
-                    //     else
-                    //     {
-                    //         b.BorderType = 0;
-                    //         b.BorderChunk = false;
-                    //     }
-                    //
-                    //     return b;
-                    // }
-
                     return biome;
                 }
 

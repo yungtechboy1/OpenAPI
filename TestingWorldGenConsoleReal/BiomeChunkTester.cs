@@ -82,23 +82,15 @@ namespace TestingWorldGenConsoleReal
                     if (tb.LocalID != biome.LocalID)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = tb;
-                        biome.BorderType = 1;
                     }else if(rb.LocalID != biome.LocalID)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = rb;
-                        biome.BorderType = 1;
                     }else if(bb.LocalID != biome.LocalID)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = bb;
-                        biome.BorderType = 1;
                     }else if(lb.LocalID != biome.LocalID)
                     {
                         biome.BorderChunk = true;
-                        biome.BorderBiome = lb;
-                        biome.BorderType = 1;
                     }
                     else
                     {
