@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace OpenAPI.Commands
-   </title>
+    <title>Permissions </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace OpenAPI.Commands
-   ">
+    <meta name="title" content="Permissions ">
     <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,29 +76,31 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="OpenAPI.Commands">
-  
-  <h1 id="OpenAPI_Commands" data-uid="OpenAPI.Commands" class="text-break">Namespace OpenAPI.Commands
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="OpenAPI.Commands.CommandData.html">CommandData</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenAPI.Commands.CommandManager.html">CommandManager</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenAPI.Commands.CommandPermissionAttribute.html">CommandPermissionAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenAPI.Commands.CommandPermissionChecker.html">CommandPermissionChecker</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenAPI.Commands.CommandPermissionChecker-1.html">CommandPermissionChecker&lt;TType&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenAPI.Commands.DefaultPermissionChecker.html">DefaultPermissionChecker</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenAPI.Commands.StringPermissionAttribute.html">StringPermissionAttribute</a></h4>
-      <section></section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="permissions">Permissions</h1>
+
+<p>Implementing simple permissions for commands etc is fairly easy in OpenApi.</p>
+<p>You register your own PermissionChecker with the CommandManager and you are pretty much ready to go.</p>
+<h2 id="example">Example:</h2>
+<h3 id="the-permission-checker-class">The permission checker class:</h3>
+<pre><code class="lang-C#">
+public class MyCoolPermissionChecker : CommandPermissionChecker&lt;StringPermissionAttribute&gt;
+{
+    public override bool HasPermission(StringPermissionAttribute attr, OpenPlayer player)
+    {
+        return player.Permissions.HasPermission(attr.Permission);
+    }
+}
+
+</code></pre>
+<h3 id="your-plugin-class">Your plugin class</h3>
+<pre><code class="lang-C#">
+public override void Enabled(OpenApi api)
+{
+    api.CommandManager.RegisterPermissionChecker(new MyCoolPermissionChecker());
+}
+
+</code></pre>
 </article>
           </div>
           
@@ -108,6 +108,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/yungtechboy1/OpenAPI/blob/FixDisableBug/docs/articles/permissions.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

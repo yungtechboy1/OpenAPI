@@ -174,6 +174,15 @@ references:
   isSpec: "True"
   fullName: OpenAPI.Commands.CommandManager.RegisterPermissionChecker
   nameWithType: CommandManager.RegisterPermissionChecker
+- uid: OpenAPI.Commands.CommandManager.RegisterPermissionChecker``1(OpenAPI.Commands.CommandPermissionChecker{``0})
+  name: RegisterPermissionChecker<TType>(CommandPermissionChecker<TType>)
+  href: api/OpenAPI.Commands.CommandManager.html#OpenAPI_Commands_CommandManager_RegisterPermissionChecker__1_OpenAPI_Commands_CommandPermissionChecker___0__
+  commentId: M:OpenAPI.Commands.CommandManager.RegisterPermissionChecker``1(OpenAPI.Commands.CommandPermissionChecker{``0})
+  name.vb: RegisterPermissionChecker(Of TType)(CommandPermissionChecker(Of TType))
+  fullName: OpenAPI.Commands.CommandManager.RegisterPermissionChecker<TType>(OpenAPI.Commands.CommandPermissionChecker<TType>)
+  fullName.vb: OpenAPI.Commands.CommandManager.RegisterPermissionChecker(Of TType)(OpenAPI.Commands.CommandPermissionChecker(Of TType))
+  nameWithType: CommandManager.RegisterPermissionChecker<TType>(CommandPermissionChecker<TType>)
+  nameWithType.vb: CommandManager.RegisterPermissionChecker(Of TType)(CommandPermissionChecker(Of TType))
 - uid: OpenAPI.Commands.CommandManager.ToCamelCase(System.String)
   name: ToCamelCase(String)
   href: api/OpenAPI.Commands.CommandManager.html#OpenAPI_Commands_CommandManager_ToCamelCase_System_String_
@@ -225,6 +234,59 @@ references:
   isSpec: "True"
   fullName: OpenAPI.Commands.CommandPermissionChecker.HasPermission
   nameWithType: CommandPermissionChecker.HasPermission
+- uid: OpenAPI.Commands.CommandPermissionChecker`1
+  name: CommandPermissionChecker<TType>
+  href: api/OpenAPI.Commands.CommandPermissionChecker-1.html
+  commentId: T:OpenAPI.Commands.CommandPermissionChecker`1
+  name.vb: CommandPermissionChecker(Of TType)
+  fullName: OpenAPI.Commands.CommandPermissionChecker<TType>
+  fullName.vb: OpenAPI.Commands.CommandPermissionChecker(Of TType)
+  nameWithType: CommandPermissionChecker<TType>
+  nameWithType.vb: CommandPermissionChecker(Of TType)
+- uid: OpenAPI.Commands.CommandPermissionChecker`1.HasPermission(`0,OpenAPI.Player.OpenPlayer)
+  name: HasPermission(TType, OpenPlayer)
+  href: api/OpenAPI.Commands.CommandPermissionChecker-1.html#OpenAPI_Commands_CommandPermissionChecker_1_HasPermission__0_OpenAPI_Player_OpenPlayer_
+  commentId: M:OpenAPI.Commands.CommandPermissionChecker`1.HasPermission(`0,OpenAPI.Player.OpenPlayer)
+  fullName: OpenAPI.Commands.CommandPermissionChecker<TType>.HasPermission(TType, OpenAPI.Player.OpenPlayer)
+  fullName.vb: OpenAPI.Commands.CommandPermissionChecker(Of TType).HasPermission(TType, OpenAPI.Player.OpenPlayer)
+  nameWithType: CommandPermissionChecker<TType>.HasPermission(TType, OpenPlayer)
+  nameWithType.vb: CommandPermissionChecker(Of TType).HasPermission(TType, OpenPlayer)
+- uid: OpenAPI.Commands.CommandPermissionChecker`1.HasPermission(OpenAPI.Commands.CommandPermissionAttribute,OpenAPI.Player.OpenPlayer)
+  name: HasPermission(CommandPermissionAttribute, OpenPlayer)
+  href: api/OpenAPI.Commands.CommandPermissionChecker-1.html#OpenAPI_Commands_CommandPermissionChecker_1_HasPermission_OpenAPI_Commands_CommandPermissionAttribute_OpenAPI_Player_OpenPlayer_
+  commentId: M:OpenAPI.Commands.CommandPermissionChecker`1.HasPermission(OpenAPI.Commands.CommandPermissionAttribute,OpenAPI.Player.OpenPlayer)
+  fullName: OpenAPI.Commands.CommandPermissionChecker<TType>.HasPermission(OpenAPI.Commands.CommandPermissionAttribute, OpenAPI.Player.OpenPlayer)
+  fullName.vb: OpenAPI.Commands.CommandPermissionChecker(Of TType).HasPermission(OpenAPI.Commands.CommandPermissionAttribute, OpenAPI.Player.OpenPlayer)
+  nameWithType: CommandPermissionChecker<TType>.HasPermission(CommandPermissionAttribute, OpenPlayer)
+  nameWithType.vb: CommandPermissionChecker(Of TType).HasPermission(CommandPermissionAttribute, OpenPlayer)
+- uid: OpenAPI.Commands.CommandPermissionChecker`1.HasPermission*
+  name: HasPermission
+  href: api/OpenAPI.Commands.CommandPermissionChecker-1.html#OpenAPI_Commands_CommandPermissionChecker_1_HasPermission_
+  commentId: Overload:OpenAPI.Commands.CommandPermissionChecker`1.HasPermission
+  isSpec: "True"
+  fullName: OpenAPI.Commands.CommandPermissionChecker<TType>.HasPermission
+  fullName.vb: OpenAPI.Commands.CommandPermissionChecker(Of TType).HasPermission
+  nameWithType: CommandPermissionChecker<TType>.HasPermission
+  nameWithType.vb: CommandPermissionChecker(Of TType).HasPermission
+- uid: OpenAPI.Commands.DefaultPermissionChecker
+  name: DefaultPermissionChecker
+  href: api/OpenAPI.Commands.DefaultPermissionChecker.html
+  commentId: T:OpenAPI.Commands.DefaultPermissionChecker
+  fullName: OpenAPI.Commands.DefaultPermissionChecker
+  nameWithType: DefaultPermissionChecker
+- uid: OpenAPI.Commands.DefaultPermissionChecker.HasPermission(OpenAPI.Commands.StringPermissionAttribute,OpenAPI.Player.OpenPlayer)
+  name: HasPermission(StringPermissionAttribute, OpenPlayer)
+  href: api/OpenAPI.Commands.DefaultPermissionChecker.html#OpenAPI_Commands_DefaultPermissionChecker_HasPermission_OpenAPI_Commands_StringPermissionAttribute_OpenAPI_Player_OpenPlayer_
+  commentId: M:OpenAPI.Commands.DefaultPermissionChecker.HasPermission(OpenAPI.Commands.StringPermissionAttribute,OpenAPI.Player.OpenPlayer)
+  fullName: OpenAPI.Commands.DefaultPermissionChecker.HasPermission(OpenAPI.Commands.StringPermissionAttribute, OpenAPI.Player.OpenPlayer)
+  nameWithType: DefaultPermissionChecker.HasPermission(StringPermissionAttribute, OpenPlayer)
+- uid: OpenAPI.Commands.DefaultPermissionChecker.HasPermission*
+  name: HasPermission
+  href: api/OpenAPI.Commands.DefaultPermissionChecker.html#OpenAPI_Commands_DefaultPermissionChecker_HasPermission_
+  commentId: Overload:OpenAPI.Commands.DefaultPermissionChecker.HasPermission
+  isSpec: "True"
+  fullName: OpenAPI.Commands.DefaultPermissionChecker.HasPermission
+  nameWithType: DefaultPermissionChecker.HasPermission
 - uid: OpenAPI.Commands.StringPermissionAttribute
   name: StringPermissionAttribute
   href: api/OpenAPI.Commands.StringPermissionAttribute.html
@@ -257,25 +319,6 @@ references:
   isSpec: "True"
   fullName: OpenAPI.Commands.StringPermissionAttribute.Permission
   nameWithType: StringPermissionAttribute.Permission
-- uid: OpenAPI.Commands.StringPermissionChecker
-  name: StringPermissionChecker
-  href: api/OpenAPI.Commands.StringPermissionChecker.html
-  commentId: T:OpenAPI.Commands.StringPermissionChecker
-  fullName: OpenAPI.Commands.StringPermissionChecker
-  nameWithType: StringPermissionChecker
-- uid: OpenAPI.Commands.StringPermissionChecker.HasPermission(OpenAPI.Commands.CommandPermissionAttribute,OpenAPI.Player.OpenPlayer)
-  name: HasPermission(CommandPermissionAttribute, OpenPlayer)
-  href: api/OpenAPI.Commands.StringPermissionChecker.html#OpenAPI_Commands_StringPermissionChecker_HasPermission_OpenAPI_Commands_CommandPermissionAttribute_OpenAPI_Player_OpenPlayer_
-  commentId: M:OpenAPI.Commands.StringPermissionChecker.HasPermission(OpenAPI.Commands.CommandPermissionAttribute,OpenAPI.Player.OpenPlayer)
-  fullName: OpenAPI.Commands.StringPermissionChecker.HasPermission(OpenAPI.Commands.CommandPermissionAttribute, OpenAPI.Player.OpenPlayer)
-  nameWithType: StringPermissionChecker.HasPermission(CommandPermissionAttribute, OpenPlayer)
-- uid: OpenAPI.Commands.StringPermissionChecker.HasPermission*
-  name: HasPermission
-  href: api/OpenAPI.Commands.StringPermissionChecker.html#OpenAPI_Commands_StringPermissionChecker_HasPermission_
-  commentId: Overload:OpenAPI.Commands.StringPermissionChecker.HasPermission
-  isSpec: "True"
-  fullName: OpenAPI.Commands.StringPermissionChecker.HasPermission
-  nameWithType: StringPermissionChecker.HasPermission
 - uid: OpenAPI.Entities
   name: OpenAPI.Entities
   href: api/OpenAPI.Entities.html
@@ -784,12 +827,15 @@ references:
   commentId: T:OpenAPI.Events.Block.BlockBreakEvent
   fullName: OpenAPI.Events.Block.BlockBreakEvent
   nameWithType: BlockBreakEvent
-- uid: OpenAPI.Events.Block.BlockBreakEvent.#ctor(OpenAPI.Player.OpenPlayer,MiNET.Blocks.Block)
-  name: BlockBreakEvent(OpenPlayer, MiNET.Blocks.Block)
-  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent__ctor_OpenAPI_Player_OpenPlayer_MiNET_Blocks_Block_
-  commentId: M:OpenAPI.Events.Block.BlockBreakEvent.#ctor(OpenAPI.Player.OpenPlayer,MiNET.Blocks.Block)
-  fullName: OpenAPI.Events.Block.BlockBreakEvent.BlockBreakEvent(OpenAPI.Player.OpenPlayer, MiNET.Blocks.Block)
-  nameWithType: BlockBreakEvent.BlockBreakEvent(OpenPlayer, MiNET.Blocks.Block)
+- uid: OpenAPI.Events.Block.BlockBreakEvent.#ctor(MiNET.Entities.Entity,MiNET.Blocks.Block,List{Item})
+  name: BlockBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block, List<Item>)
+  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent__ctor_MiNET_Entities_Entity_MiNET_Blocks_Block_List_Item__
+  commentId: M:OpenAPI.Events.Block.BlockBreakEvent.#ctor(MiNET.Entities.Entity,MiNET.Blocks.Block,List{Item})
+  name.vb: BlockBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block, List(Of Item))
+  fullName: OpenAPI.Events.Block.BlockBreakEvent.BlockBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block, List<Item>)
+  fullName.vb: OpenAPI.Events.Block.BlockBreakEvent.BlockBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block, List(Of Item))
+  nameWithType: BlockBreakEvent.BlockBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block, List<Item>)
+  nameWithType.vb: BlockBreakEvent.BlockBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block, List(Of Item))
 - uid: OpenAPI.Events.Block.BlockBreakEvent.#ctor*
   name: BlockBreakEvent
   href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent__ctor_
@@ -797,19 +843,32 @@ references:
   isSpec: "True"
   fullName: OpenAPI.Events.Block.BlockBreakEvent.BlockBreakEvent
   nameWithType: BlockBreakEvent.BlockBreakEvent
-- uid: OpenAPI.Events.Block.BlockBreakEvent.Player
-  name: Player
-  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent_Player
-  commentId: P:OpenAPI.Events.Block.BlockBreakEvent.Player
-  fullName: OpenAPI.Events.Block.BlockBreakEvent.Player
-  nameWithType: BlockBreakEvent.Player
-- uid: OpenAPI.Events.Block.BlockBreakEvent.Player*
-  name: Player
-  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent_Player_
-  commentId: Overload:OpenAPI.Events.Block.BlockBreakEvent.Player
+- uid: OpenAPI.Events.Block.BlockBreakEvent.Drops
+  name: Drops
+  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent_Drops
+  commentId: P:OpenAPI.Events.Block.BlockBreakEvent.Drops
+  fullName: OpenAPI.Events.Block.BlockBreakEvent.Drops
+  nameWithType: BlockBreakEvent.Drops
+- uid: OpenAPI.Events.Block.BlockBreakEvent.Drops*
+  name: Drops
+  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent_Drops_
+  commentId: Overload:OpenAPI.Events.Block.BlockBreakEvent.Drops
   isSpec: "True"
-  fullName: OpenAPI.Events.Block.BlockBreakEvent.Player
-  nameWithType: BlockBreakEvent.Player
+  fullName: OpenAPI.Events.Block.BlockBreakEvent.Drops
+  nameWithType: BlockBreakEvent.Drops
+- uid: OpenAPI.Events.Block.BlockBreakEvent.Source
+  name: Source
+  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent_Source
+  commentId: P:OpenAPI.Events.Block.BlockBreakEvent.Source
+  fullName: OpenAPI.Events.Block.BlockBreakEvent.Source
+  nameWithType: BlockBreakEvent.Source
+- uid: OpenAPI.Events.Block.BlockBreakEvent.Source*
+  name: Source
+  href: api/OpenAPI.Events.Block.BlockBreakEvent.html#OpenAPI_Events_Block_BlockBreakEvent_Source_
+  commentId: Overload:OpenAPI.Events.Block.BlockBreakEvent.Source
+  isSpec: "True"
+  fullName: OpenAPI.Events.Block.BlockBreakEvent.Source
+  nameWithType: BlockBreakEvent.Source
 - uid: OpenAPI.Events.Block.BlockEvent
   name: BlockEvent
   href: api/OpenAPI.Events.Block.BlockEvent.html
@@ -912,12 +971,12 @@ references:
   commentId: T:OpenAPI.Events.Block.BlockStartBreakEvent
   fullName: OpenAPI.Events.Block.BlockStartBreakEvent
   nameWithType: BlockStartBreakEvent
-- uid: OpenAPI.Events.Block.BlockStartBreakEvent.#ctor(OpenAPI.Player.OpenPlayer,MiNET.Blocks.Block)
-  name: BlockStartBreakEvent(OpenPlayer, MiNET.Blocks.Block)
-  href: api/OpenAPI.Events.Block.BlockStartBreakEvent.html#OpenAPI_Events_Block_BlockStartBreakEvent__ctor_OpenAPI_Player_OpenPlayer_MiNET_Blocks_Block_
-  commentId: M:OpenAPI.Events.Block.BlockStartBreakEvent.#ctor(OpenAPI.Player.OpenPlayer,MiNET.Blocks.Block)
-  fullName: OpenAPI.Events.Block.BlockStartBreakEvent.BlockStartBreakEvent(OpenAPI.Player.OpenPlayer, MiNET.Blocks.Block)
-  nameWithType: BlockStartBreakEvent.BlockStartBreakEvent(OpenPlayer, MiNET.Blocks.Block)
+- uid: OpenAPI.Events.Block.BlockStartBreakEvent.#ctor(MiNET.Entities.Entity,MiNET.Blocks.Block)
+  name: BlockStartBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block)
+  href: api/OpenAPI.Events.Block.BlockStartBreakEvent.html#OpenAPI_Events_Block_BlockStartBreakEvent__ctor_MiNET_Entities_Entity_MiNET_Blocks_Block_
+  commentId: M:OpenAPI.Events.Block.BlockStartBreakEvent.#ctor(MiNET.Entities.Entity,MiNET.Blocks.Block)
+  fullName: OpenAPI.Events.Block.BlockStartBreakEvent.BlockStartBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block)
+  nameWithType: BlockStartBreakEvent.BlockStartBreakEvent(MiNET.Entities.Entity, MiNET.Blocks.Block)
 - uid: OpenAPI.Events.Block.BlockStartBreakEvent.#ctor*
   name: BlockStartBreakEvent
   href: api/OpenAPI.Events.Block.BlockStartBreakEvent.html#OpenAPI_Events_Block_BlockStartBreakEvent__ctor_
@@ -1274,6 +1333,22 @@ references:
   isSpec: "True"
   fullName: OpenAPI.Events.EventDispatcher.DispatchEvent
   nameWithType: EventDispatcher.DispatchEvent
+- uid: OpenAPI.Events.EventDispatcher.DispatchEventAsync*
+  name: DispatchEventAsync
+  href: api/OpenAPI.Events.EventDispatcher.html#OpenAPI_Events_EventDispatcher_DispatchEventAsync_
+  commentId: Overload:OpenAPI.Events.EventDispatcher.DispatchEventAsync
+  isSpec: "True"
+  fullName: OpenAPI.Events.EventDispatcher.DispatchEventAsync
+  nameWithType: EventDispatcher.DispatchEventAsync
+- uid: OpenAPI.Events.EventDispatcher.DispatchEventAsync``1(``0)
+  name: DispatchEventAsync<TEvent>(TEvent)
+  href: api/OpenAPI.Events.EventDispatcher.html#OpenAPI_Events_EventDispatcher_DispatchEventAsync__1___0_
+  commentId: M:OpenAPI.Events.EventDispatcher.DispatchEventAsync``1(``0)
+  name.vb: DispatchEventAsync(Of TEvent)(TEvent)
+  fullName: OpenAPI.Events.EventDispatcher.DispatchEventAsync<TEvent>(TEvent)
+  fullName.vb: OpenAPI.Events.EventDispatcher.DispatchEventAsync(Of TEvent)(TEvent)
+  nameWithType: EventDispatcher.DispatchEventAsync<TEvent>(TEvent)
+  nameWithType.vb: EventDispatcher.DispatchEventAsync(Of TEvent)(TEvent)
 - uid: OpenAPI.Events.EventDispatcher.LoadFrom(Assembly)
   name: LoadFrom(Assembly)
   href: api/OpenAPI.Events.EventDispatcher.html#OpenAPI_Events_EventDispatcher_LoadFrom_Assembly_
@@ -2772,12 +2847,12 @@ references:
   isSpec: "True"
   fullName: OpenAPI.OpenMotdProvider.Api
   nameWithType: OpenMotdProvider.Api
-- uid: OpenAPI.OpenMotdProvider.GetMotd(ServerInfo,IPEndPoint,System.Boolean)
-  name: GetMotd(ServerInfo, IPEndPoint, Boolean)
-  href: api/OpenAPI.OpenMotdProvider.html#OpenAPI_OpenMotdProvider_GetMotd_ServerInfo_IPEndPoint_System_Boolean_
-  commentId: M:OpenAPI.OpenMotdProvider.GetMotd(ServerInfo,IPEndPoint,System.Boolean)
-  fullName: OpenAPI.OpenMotdProvider.GetMotd(ServerInfo, IPEndPoint, System.Boolean)
-  nameWithType: OpenMotdProvider.GetMotd(ServerInfo, IPEndPoint, Boolean)
+- uid: OpenAPI.OpenMotdProvider.GetMotd(ConnectionInfo,IPEndPoint,System.Boolean)
+  name: GetMotd(ConnectionInfo, IPEndPoint, Boolean)
+  href: api/OpenAPI.OpenMotdProvider.html#OpenAPI_OpenMotdProvider_GetMotd_ConnectionInfo_IPEndPoint_System_Boolean_
+  commentId: M:OpenAPI.OpenMotdProvider.GetMotd(ConnectionInfo,IPEndPoint,System.Boolean)
+  fullName: OpenAPI.OpenMotdProvider.GetMotd(ConnectionInfo, IPEndPoint, System.Boolean)
+  nameWithType: OpenMotdProvider.GetMotd(ConnectionInfo, IPEndPoint, Boolean)
 - uid: OpenAPI.OpenMotdProvider.GetMotd*
   name: GetMotd
   href: api/OpenAPI.OpenMotdProvider.html#OpenAPI_OpenMotdProvider_GetMotd_
@@ -2849,15 +2924,15 @@ references:
   commentId: T:OpenAPI.OpenServerInfo
   fullName: OpenAPI.OpenServerInfo
   nameWithType: OpenServerInfo
-- uid: OpenAPI.OpenServerInfo.#ctor(OpenAPI.OpenApi,ConcurrentDictionary{IPEndPoint,PlayerNetworkSession},LevelManager)
-  name: OpenServerInfo(OpenApi, ConcurrentDictionary<IPEndPoint, PlayerNetworkSession>, LevelManager)
-  href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo__ctor_OpenAPI_OpenApi_ConcurrentDictionary_IPEndPoint_PlayerNetworkSession__LevelManager_
-  commentId: M:OpenAPI.OpenServerInfo.#ctor(OpenAPI.OpenApi,ConcurrentDictionary{IPEndPoint,PlayerNetworkSession},LevelManager)
-  name.vb: OpenServerInfo(OpenApi, ConcurrentDictionary(Of IPEndPoint, PlayerNetworkSession), LevelManager)
-  fullName: OpenAPI.OpenServerInfo.OpenServerInfo(OpenAPI.OpenApi, ConcurrentDictionary<IPEndPoint, PlayerNetworkSession>, LevelManager)
-  fullName.vb: OpenAPI.OpenServerInfo.OpenServerInfo(OpenAPI.OpenApi, ConcurrentDictionary(Of IPEndPoint, PlayerNetworkSession), LevelManager)
-  nameWithType: OpenServerInfo.OpenServerInfo(OpenApi, ConcurrentDictionary<IPEndPoint, PlayerNetworkSession>, LevelManager)
-  nameWithType.vb: OpenServerInfo.OpenServerInfo(OpenApi, ConcurrentDictionary(Of IPEndPoint, PlayerNetworkSession), LevelManager)
+- uid: OpenAPI.OpenServerInfo.#ctor(ConnectionInfo,OpenAPI.OpenApi,ConcurrentDictionary{IPEndPoint,RakSession},LevelManager)
+  name: OpenServerInfo(ConnectionInfo, OpenApi, ConcurrentDictionary<IPEndPoint, RakSession>, LevelManager)
+  href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo__ctor_ConnectionInfo_OpenAPI_OpenApi_ConcurrentDictionary_IPEndPoint_RakSession__LevelManager_
+  commentId: M:OpenAPI.OpenServerInfo.#ctor(ConnectionInfo,OpenAPI.OpenApi,ConcurrentDictionary{IPEndPoint,RakSession},LevelManager)
+  name.vb: OpenServerInfo(ConnectionInfo, OpenApi, ConcurrentDictionary(Of IPEndPoint, RakSession), LevelManager)
+  fullName: OpenAPI.OpenServerInfo.OpenServerInfo(ConnectionInfo, OpenAPI.OpenApi, ConcurrentDictionary<IPEndPoint, RakSession>, LevelManager)
+  fullName.vb: OpenAPI.OpenServerInfo.OpenServerInfo(ConnectionInfo, OpenAPI.OpenApi, ConcurrentDictionary(Of IPEndPoint, RakSession), LevelManager)
+  nameWithType: OpenServerInfo.OpenServerInfo(ConnectionInfo, OpenApi, ConcurrentDictionary<IPEndPoint, RakSession>, LevelManager)
+  nameWithType.vb: OpenServerInfo.OpenServerInfo(ConnectionInfo, OpenApi, ConcurrentDictionary(Of IPEndPoint, RakSession), LevelManager)
 - uid: OpenAPI.OpenServerInfo.#ctor*
   name: OpenServerInfo
   href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo__ctor_
@@ -2865,6 +2940,32 @@ references:
   isSpec: "True"
   fullName: OpenAPI.OpenServerInfo.OpenServerInfo
   nameWithType: OpenServerInfo.OpenServerInfo
+- uid: OpenAPI.OpenServerInfo.AvgSizePerPacketIn
+  name: AvgSizePerPacketIn
+  href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo_AvgSizePerPacketIn
+  commentId: P:OpenAPI.OpenServerInfo.AvgSizePerPacketIn
+  fullName: OpenAPI.OpenServerInfo.AvgSizePerPacketIn
+  nameWithType: OpenServerInfo.AvgSizePerPacketIn
+- uid: OpenAPI.OpenServerInfo.AvgSizePerPacketIn*
+  name: AvgSizePerPacketIn
+  href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo_AvgSizePerPacketIn_
+  commentId: Overload:OpenAPI.OpenServerInfo.AvgSizePerPacketIn
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.AvgSizePerPacketIn
+  nameWithType: OpenServerInfo.AvgSizePerPacketIn
+- uid: OpenAPI.OpenServerInfo.AvgSizePerPacketOut
+  name: AvgSizePerPacketOut
+  href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo_AvgSizePerPacketOut
+  commentId: P:OpenAPI.OpenServerInfo.AvgSizePerPacketOut
+  fullName: OpenAPI.OpenServerInfo.AvgSizePerPacketOut
+  nameWithType: OpenServerInfo.AvgSizePerPacketOut
+- uid: OpenAPI.OpenServerInfo.AvgSizePerPacketOut*
+  name: AvgSizePerPacketOut
+  href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo_AvgSizePerPacketOut_
+  commentId: Overload:OpenAPI.OpenServerInfo.AvgSizePerPacketOut
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.AvgSizePerPacketOut
+  nameWithType: OpenServerInfo.AvgSizePerPacketOut
 - uid: OpenAPI.OpenServerInfo.EventsDispatchedPerSecond
   name: EventsDispatchedPerSecond
   href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo_EventsDispatchedPerSecond
@@ -2890,6 +2991,220 @@ references:
   commentId: F:OpenAPI.OpenServerInfo.Levels
   fullName: OpenAPI.OpenServerInfo.Levels
   nameWithType: OpenServerInfo.Levels
+- uid: OpenAPI.OpenServerInfo.MetricsEvent
+  name: OpenServerInfo.MetricsEvent
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html
+  commentId: T:OpenAPI.OpenServerInfo.MetricsEvent
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent
+  nameWithType: OpenServerInfo.MetricsEvent
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AckIn
+  name: AckIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AckIn
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.AckIn
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AckIn
+  nameWithType: OpenServerInfo.MetricsEvent.AckIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AckIn*
+  name: AckIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AckIn_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.AckIn
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AckIn
+  nameWithType: OpenServerInfo.MetricsEvent.AckIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AckOut
+  name: AckOut
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AckOut
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.AckOut
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AckOut
+  nameWithType: OpenServerInfo.MetricsEvent.AckOut
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AckOut*
+  name: AckOut
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AckOut_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.AckOut
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AckOut
+  nameWithType: OpenServerInfo.MetricsEvent.AckOut
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketIn
+  name: AvgSizePerPacketIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AvgSizePerPacketIn
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketIn
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketIn
+  nameWithType: OpenServerInfo.MetricsEvent.AvgSizePerPacketIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketIn*
+  name: AvgSizePerPacketIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AvgSizePerPacketIn_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketIn
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketIn
+  nameWithType: OpenServerInfo.MetricsEvent.AvgSizePerPacketIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketOut
+  name: AvgSizePerPacketOut
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AvgSizePerPacketOut
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketOut
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketOut
+  nameWithType: OpenServerInfo.MetricsEvent.AvgSizePerPacketOut
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketOut*
+  name: AvgSizePerPacketOut
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_AvgSizePerPacketOut_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketOut
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.AvgSizePerPacketOut
+  nameWithType: OpenServerInfo.MetricsEvent.AvgSizePerPacketOut
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.DeniedConnections
+  name: DeniedConnections
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_DeniedConnections
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.DeniedConnections
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.DeniedConnections
+  nameWithType: OpenServerInfo.MetricsEvent.DeniedConnections
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.DeniedConnections*
+  name: DeniedConnections
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_DeniedConnections_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.DeniedConnections
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.DeniedConnections
+  nameWithType: OpenServerInfo.MetricsEvent.DeniedConnections
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.EventsDispatched
+  name: EventsDispatched
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_EventsDispatched
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.EventsDispatched
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.EventsDispatched
+  nameWithType: OpenServerInfo.MetricsEvent.EventsDispatched
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.EventsDispatched*
+  name: EventsDispatched
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_EventsDispatched_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.EventsDispatched
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.EventsDispatched
+  nameWithType: OpenServerInfo.MetricsEvent.EventsDispatched
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.Failures
+  name: Failures
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_Failures
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.Failures
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.Failures
+  nameWithType: OpenServerInfo.MetricsEvent.Failures
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.Failures*
+  name: Failures
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_Failures_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.Failures
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.Failures
+  nameWithType: OpenServerInfo.MetricsEvent.Failures
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.NakIn
+  name: NakIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_NakIn
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.NakIn
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.NakIn
+  nameWithType: OpenServerInfo.MetricsEvent.NakIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.NakIn*
+  name: NakIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_NakIn_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.NakIn
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.NakIn
+  nameWithType: OpenServerInfo.MetricsEvent.NakIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.NetworkDownloadBps
+  name: NetworkDownloadBps
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_NetworkDownloadBps
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.NetworkDownloadBps
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.NetworkDownloadBps
+  nameWithType: OpenServerInfo.MetricsEvent.NetworkDownloadBps
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.NetworkDownloadBps*
+  name: NetworkDownloadBps
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_NetworkDownloadBps_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.NetworkDownloadBps
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.NetworkDownloadBps
+  nameWithType: OpenServerInfo.MetricsEvent.NetworkDownloadBps
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.NetworkUploadBps
+  name: NetworkUploadBps
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_NetworkUploadBps
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.NetworkUploadBps
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.NetworkUploadBps
+  nameWithType: OpenServerInfo.MetricsEvent.NetworkUploadBps
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.NetworkUploadBps*
+  name: NetworkUploadBps
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_NetworkUploadBps_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.NetworkUploadBps
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.NetworkUploadBps
+  nameWithType: OpenServerInfo.MetricsEvent.NetworkUploadBps
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.PacketsIn
+  name: PacketsIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_PacketsIn
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.PacketsIn
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.PacketsIn
+  nameWithType: OpenServerInfo.MetricsEvent.PacketsIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.PacketsIn*
+  name: PacketsIn
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_PacketsIn_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.PacketsIn
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.PacketsIn
+  nameWithType: OpenServerInfo.MetricsEvent.PacketsIn
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.PacketsOut
+  name: PacketsOut
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_PacketsOut
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.PacketsOut
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.PacketsOut
+  nameWithType: OpenServerInfo.MetricsEvent.PacketsOut
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.PacketsOut*
+  name: PacketsOut
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_PacketsOut_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.PacketsOut
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.PacketsOut
+  nameWithType: OpenServerInfo.MetricsEvent.PacketsOut
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.Players
+  name: Players
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_Players
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.Players
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.Players
+  nameWithType: OpenServerInfo.MetricsEvent.Players
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.Players*
+  name: Players
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_Players_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.Players
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.Players
+  nameWithType: OpenServerInfo.MetricsEvent.Players
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.PortThreads
+  name: PortThreads
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_PortThreads
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.PortThreads
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.PortThreads
+  nameWithType: OpenServerInfo.MetricsEvent.PortThreads
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.PortThreads*
+  name: PortThreads
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_PortThreads_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.PortThreads
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.PortThreads
+  nameWithType: OpenServerInfo.MetricsEvent.PortThreads
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.Resends
+  name: Resends
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_Resends
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.Resends
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.Resends
+  nameWithType: OpenServerInfo.MetricsEvent.Resends
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.Resends*
+  name: Resends
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_Resends_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.Resends
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.Resends
+  nameWithType: OpenServerInfo.MetricsEvent.Resends
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.WorkerThreads
+  name: WorkerThreads
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_WorkerThreads
+  commentId: P:OpenAPI.OpenServerInfo.MetricsEvent.WorkerThreads
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.WorkerThreads
+  nameWithType: OpenServerInfo.MetricsEvent.WorkerThreads
+- uid: OpenAPI.OpenServerInfo.MetricsEvent.WorkerThreads*
+  name: WorkerThreads
+  href: api/OpenAPI.OpenServerInfo.MetricsEvent.html#OpenAPI_OpenServerInfo_MetricsEvent_WorkerThreads_
+  commentId: Overload:OpenAPI.OpenServerInfo.MetricsEvent.WorkerThreads
+  isSpec: "True"
+  fullName: OpenAPI.OpenServerInfo.MetricsEvent.WorkerThreads
+  nameWithType: OpenServerInfo.MetricsEvent.WorkerThreads
 - uid: OpenAPI.OpenServerInfo.OnDisable
   name: OnDisable()
   href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo_OnDisable
@@ -2916,6 +3231,12 @@ references:
   isSpec: "True"
   fullName: OpenAPI.OpenServerInfo.OnEnable
   nameWithType: OpenServerInfo.OnEnable
+- uid: OpenAPI.OpenServerInfo.OnMetricsReport
+  name: OnMetricsReport
+  href: api/OpenAPI.OpenServerInfo.html#OpenAPI_OpenServerInfo_OnMetricsReport
+  commentId: F:OpenAPI.OpenServerInfo.OnMetricsReport
+  fullName: OpenAPI.OpenServerInfo.OnMetricsReport
+  nameWithType: OpenServerInfo.OnMetricsReport
 - uid: OpenAPI.Permission
   name: OpenAPI.Permission
   href: api/OpenAPI.Permission.html
@@ -3852,6 +4173,28 @@ references:
   isSpec: "True"
   fullName: OpenAPI.Plugins.DependencyContainer.DependencyContainer
   nameWithType: DependencyContainer.DependencyContainer
+- uid: OpenAPI.Plugins.DependencyContainer.CreateInstanceOf(Type)
+  name: CreateInstanceOf(Type)
+  href: api/OpenAPI.Plugins.DependencyContainer.html#OpenAPI_Plugins_DependencyContainer_CreateInstanceOf_Type_
+  commentId: M:OpenAPI.Plugins.DependencyContainer.CreateInstanceOf(Type)
+  fullName: OpenAPI.Plugins.DependencyContainer.CreateInstanceOf(Type)
+  nameWithType: DependencyContainer.CreateInstanceOf(Type)
+- uid: OpenAPI.Plugins.DependencyContainer.CreateInstanceOf*
+  name: CreateInstanceOf
+  href: api/OpenAPI.Plugins.DependencyContainer.html#OpenAPI_Plugins_DependencyContainer_CreateInstanceOf_
+  commentId: Overload:OpenAPI.Plugins.DependencyContainer.CreateInstanceOf
+  isSpec: "True"
+  fullName: OpenAPI.Plugins.DependencyContainer.CreateInstanceOf
+  nameWithType: DependencyContainer.CreateInstanceOf
+- uid: OpenAPI.Plugins.DependencyContainer.CreateInstanceOf``1
+  name: CreateInstanceOf<TType>()
+  href: api/OpenAPI.Plugins.DependencyContainer.html#OpenAPI_Plugins_DependencyContainer_CreateInstanceOf__1
+  commentId: M:OpenAPI.Plugins.DependencyContainer.CreateInstanceOf``1
+  name.vb: CreateInstanceOf(Of TType)()
+  fullName: OpenAPI.Plugins.DependencyContainer.CreateInstanceOf<TType>()
+  fullName.vb: OpenAPI.Plugins.DependencyContainer.CreateInstanceOf(Of TType)()
+  nameWithType: DependencyContainer.CreateInstanceOf<TType>()
+  nameWithType.vb: DependencyContainer.CreateInstanceOf(Of TType)()
 - uid: OpenAPI.Plugins.DependencyContainer.Register*
   name: Register
   href: api/OpenAPI.Plugins.DependencyContainer.html#OpenAPI_Plugins_DependencyContainer_Register_
@@ -5198,15 +5541,15 @@ references:
   fullName.vb: OpenAPI.Utils.ReflectionHelper.GetPrivateStaticPropertyValue(Of T)(Type, System.String)
   nameWithType: ReflectionHelper.GetPrivateStaticPropertyValue<T>(Type, String)
   nameWithType.vb: ReflectionHelper.GetPrivateStaticPropertyValue(Of T)(Type, String)
-- uid: OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(System.Object,System.String,System.Object[])
-  name: InvokePrivateMethod(Object, String, Object[])
-  href: api/OpenAPI.Utils.ReflectionHelper.html#OpenAPI_Utils_ReflectionHelper_InvokePrivateMethod_System_Object_System_String_System_Object___
-  commentId: M:OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(System.Object,System.String,System.Object[])
-  name.vb: InvokePrivateMethod(Object, String, Object())
-  fullName: OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(System.Object, System.String, System.Object[])
-  fullName.vb: OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(System.Object, System.String, System.Object())
-  nameWithType: ReflectionHelper.InvokePrivateMethod(Object, String, Object[])
-  nameWithType.vb: ReflectionHelper.InvokePrivateMethod(Object, String, Object())
+- uid: OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(Type,System.Object,System.String,System.Object[])
+  name: InvokePrivateMethod(Type, Object, String, Object[])
+  href: api/OpenAPI.Utils.ReflectionHelper.html#OpenAPI_Utils_ReflectionHelper_InvokePrivateMethod_Type_System_Object_System_String_System_Object___
+  commentId: M:OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(Type,System.Object,System.String,System.Object[])
+  name.vb: InvokePrivateMethod(Type, Object, String, Object())
+  fullName: OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(Type, System.Object, System.String, System.Object[])
+  fullName.vb: OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod(Type, System.Object, System.String, System.Object())
+  nameWithType: ReflectionHelper.InvokePrivateMethod(Type, Object, String, Object[])
+  nameWithType.vb: ReflectionHelper.InvokePrivateMethod(Type, Object, String, Object())
 - uid: OpenAPI.Utils.ReflectionHelper.InvokePrivateMethod*
   name: InvokePrivateMethod
   href: api/OpenAPI.Utils.ReflectionHelper.html#OpenAPI_Utils_ReflectionHelper_InvokePrivateMethod_
@@ -5513,6 +5856,28 @@ references:
   isSpec: "True"
   fullName: OpenAPI.Utils.ResourcePacks.ResourcePackProvider.UseResourcePack
   nameWithType: ResourcePackProvider.UseResourcePack
+- uid: OpenAPI.Utils.TaskExtensions
+  name: TaskExtensions
+  href: api/OpenAPI.Utils.TaskExtensions.html
+  commentId: T:OpenAPI.Utils.TaskExtensions
+  fullName: OpenAPI.Utils.TaskExtensions
+  nameWithType: TaskExtensions
+- uid: OpenAPI.Utils.TaskExtensions.Then*
+  name: Then
+  href: api/OpenAPI.Utils.TaskExtensions.html#OpenAPI_Utils_TaskExtensions_Then_
+  commentId: Overload:OpenAPI.Utils.TaskExtensions.Then
+  isSpec: "True"
+  fullName: OpenAPI.Utils.TaskExtensions.Then
+  nameWithType: TaskExtensions.Then
+- uid: OpenAPI.Utils.TaskExtensions.Then``1(Task{``0},Action{``0})
+  name: Then<TResult>(Task<TResult>, Action<TResult>)
+  href: api/OpenAPI.Utils.TaskExtensions.html#OpenAPI_Utils_TaskExtensions_Then__1_Task___0__Action___0__
+  commentId: M:OpenAPI.Utils.TaskExtensions.Then``1(Task{``0},Action{``0})
+  name.vb: Then(Of TResult)(Task(Of TResult), Action(Of TResult))
+  fullName: OpenAPI.Utils.TaskExtensions.Then<TResult>(Task<TResult>, Action<TResult>)
+  fullName.vb: OpenAPI.Utils.TaskExtensions.Then(Of TResult)(Task(Of TResult), Action(Of TResult))
+  nameWithType: TaskExtensions.Then<TResult>(Task<TResult>, Action<TResult>)
+  nameWithType.vb: TaskExtensions.Then(Of TResult)(Task(Of TResult), Action(Of TResult))
 - uid: OpenAPI.Utils.ThreadSafeList`1
   name: ThreadSafeList<T>
   href: api/OpenAPI.Utils.ThreadSafeList-1.html
@@ -5530,15 +5895,15 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).ThreadSafeList()
   nameWithType: ThreadSafeList<T>.ThreadSafeList()
   nameWithType.vb: ThreadSafeList(Of T).ThreadSafeList()
-- uid: OpenAPI.Utils.ThreadSafeList`1.#ctor(IList{`0})
-  name: ThreadSafeList(IList<T>)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1__ctor_IList__0__
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.#ctor(IList{`0})
-  name.vb: ThreadSafeList(IList(Of T))
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.ThreadSafeList(IList<T>)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).ThreadSafeList(IList(Of T))
-  nameWithType: ThreadSafeList<T>.ThreadSafeList(IList<T>)
-  nameWithType.vb: ThreadSafeList(Of T).ThreadSafeList(IList(Of T))
+- uid: OpenAPI.Utils.ThreadSafeList`1.#ctor(IEnumerable{`0})
+  name: ThreadSafeList(IEnumerable<T>)
+  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1__ctor_IEnumerable__0__
+  commentId: M:OpenAPI.Utils.ThreadSafeList`1.#ctor(IEnumerable{`0})
+  name.vb: ThreadSafeList(IEnumerable(Of T))
+  fullName: OpenAPI.Utils.ThreadSafeList<T>.ThreadSafeList(IEnumerable<T>)
+  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).ThreadSafeList(IEnumerable(Of T))
+  nameWithType: ThreadSafeList<T>.ThreadSafeList(IEnumerable<T>)
+  nameWithType.vb: ThreadSafeList(Of T).ThreadSafeList(IEnumerable(Of T))
 - uid: OpenAPI.Utils.ThreadSafeList`1.#ctor*
   name: ThreadSafeList
   href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1__ctor_
@@ -5556,15 +5921,6 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Add(T)
   nameWithType: ThreadSafeList<T>.Add(T)
   nameWithType.vb: ThreadSafeList(Of T).Add(T)
-- uid: OpenAPI.Utils.ThreadSafeList`1.Add(IEnumerable{`0})
-  name: Add(IEnumerable<T>)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_Add_IEnumerable__0__
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.Add(IEnumerable{`0})
-  name.vb: Add(IEnumerable(Of T))
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.Add(IEnumerable<T>)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Add(IEnumerable(Of T))
-  nameWithType: ThreadSafeList<T>.Add(IEnumerable<T>)
-  nameWithType.vb: ThreadSafeList(Of T).Add(IEnumerable(Of T))
 - uid: OpenAPI.Utils.ThreadSafeList`1.Add*
   name: Add
   href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_Add_
@@ -5574,41 +5930,6 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Add
   nameWithType: ThreadSafeList<T>.Add
   nameWithType.vb: ThreadSafeList(Of T).Add
-- uid: OpenAPI.Utils.ThreadSafeList`1.AddAsync(`0)
-  name: AddAsync(T)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_AddAsync__0_
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.AddAsync(`0)
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.AddAsync(T)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).AddAsync(T)
-  nameWithType: ThreadSafeList<T>.AddAsync(T)
-  nameWithType.vb: ThreadSafeList(Of T).AddAsync(T)
-- uid: OpenAPI.Utils.ThreadSafeList`1.AddAsync*
-  name: AddAsync
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_AddAsync_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.AddAsync
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.AddAsync
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).AddAsync
-  nameWithType: ThreadSafeList<T>.AddAsync
-  nameWithType.vb: ThreadSafeList(Of T).AddAsync
-- uid: OpenAPI.Utils.ThreadSafeList`1.AddRange(IEnumerable{`0},System.Boolean)
-  name: AddRange(IEnumerable<T>, Boolean)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_AddRange_IEnumerable__0__System_Boolean_
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.AddRange(IEnumerable{`0},System.Boolean)
-  name.vb: AddRange(IEnumerable(Of T), Boolean)
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.AddRange(IEnumerable<T>, System.Boolean)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).AddRange(IEnumerable(Of T), System.Boolean)
-  nameWithType: ThreadSafeList<T>.AddRange(IEnumerable<T>, Boolean)
-  nameWithType.vb: ThreadSafeList(Of T).AddRange(IEnumerable(Of T), Boolean)
-- uid: OpenAPI.Utils.ThreadSafeList`1.AddRange*
-  name: AddRange
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_AddRange_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.AddRange
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.AddRange
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).AddRange
-  nameWithType: ThreadSafeList<T>.AddRange
-  nameWithType.vb: ThreadSafeList(Of T).AddRange
 - uid: OpenAPI.Utils.ThreadSafeList`1.Clear
   name: Clear()
   href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_Clear
@@ -5626,23 +5947,6 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Clear
   nameWithType: ThreadSafeList<T>.Clear
   nameWithType.vb: ThreadSafeList(Of T).Clear
-- uid: OpenAPI.Utils.ThreadSafeList`1.Clone(System.Boolean)
-  name: Clone(Boolean)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_Clone_System_Boolean_
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.Clone(System.Boolean)
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.Clone(System.Boolean)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Clone(System.Boolean)
-  nameWithType: ThreadSafeList<T>.Clone(Boolean)
-  nameWithType.vb: ThreadSafeList(Of T).Clone(Boolean)
-- uid: OpenAPI.Utils.ThreadSafeList`1.Clone*
-  name: Clone
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_Clone_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.Clone
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.Clone
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Clone
-  nameWithType: ThreadSafeList<T>.Clone
-  nameWithType.vb: ThreadSafeList(Of T).Clone
 - uid: OpenAPI.Utils.ThreadSafeList`1.Contains(`0)
   name: Contains(T)
   href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_Contains__0_
@@ -5695,42 +5999,6 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Count
   nameWithType: ThreadSafeList<T>.Count
   nameWithType.vb: ThreadSafeList(Of T).Count
-- uid: OpenAPI.Utils.ThreadSafeList`1.ForAll(Action{`0},System.Boolean,System.Boolean,System.Boolean)
-  name: ForAll(Action<T>, Boolean, Boolean, Boolean)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_ForAll_Action__0__System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.ForAll(Action{`0},System.Boolean,System.Boolean,System.Boolean)
-  name.vb: ForAll(Action(Of T), Boolean, Boolean, Boolean)
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.ForAll(Action<T>, System.Boolean, System.Boolean, System.Boolean)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).ForAll(Action(Of T), System.Boolean, System.Boolean, System.Boolean)
-  nameWithType: ThreadSafeList<T>.ForAll(Action<T>, Boolean, Boolean, Boolean)
-  nameWithType.vb: ThreadSafeList(Of T).ForAll(Action(Of T), Boolean, Boolean, Boolean)
-- uid: OpenAPI.Utils.ThreadSafeList`1.ForAll*
-  name: ForAll
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_ForAll_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.ForAll
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.ForAll
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).ForAll
-  nameWithType: ThreadSafeList<T>.ForAll
-  nameWithType.vb: ThreadSafeList(Of T).ForAll
-- uid: OpenAPI.Utils.ThreadSafeList`1.ForEach(Action{`0},System.Boolean,System.Boolean,System.Boolean)
-  name: ForEach(Action<T>, Boolean, Boolean, Boolean)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_ForEach_Action__0__System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.ForEach(Action{`0},System.Boolean,System.Boolean,System.Boolean)
-  name.vb: ForEach(Action(Of T), Boolean, Boolean, Boolean)
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.ForEach(Action<T>, System.Boolean, System.Boolean, System.Boolean)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).ForEach(Action(Of T), System.Boolean, System.Boolean, System.Boolean)
-  nameWithType: ThreadSafeList<T>.ForEach(Action<T>, Boolean, Boolean, Boolean)
-  nameWithType.vb: ThreadSafeList(Of T).ForEach(Action(Of T), Boolean, Boolean, Boolean)
-- uid: OpenAPI.Utils.ThreadSafeList`1.ForEach*
-  name: ForEach
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_ForEach_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.ForEach
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.ForEach
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).ForEach
-  nameWithType: ThreadSafeList<T>.ForEach
-  nameWithType.vb: ThreadSafeList(Of T).ForEach
 - uid: OpenAPI.Utils.ThreadSafeList`1.GetEnumerator
   name: GetEnumerator()
   href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_GetEnumerator
@@ -5817,23 +6085,6 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).Item
   nameWithType: ThreadSafeList<T>.Item
   nameWithType.vb: ThreadSafeList(Of T).Item
-- uid: OpenAPI.Utils.ThreadSafeList`1.LongCount
-  name: LongCount
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_LongCount
-  commentId: P:OpenAPI.Utils.ThreadSafeList`1.LongCount
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.LongCount
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).LongCount
-  nameWithType: ThreadSafeList<T>.LongCount
-  nameWithType.vb: ThreadSafeList(Of T).LongCount
-- uid: OpenAPI.Utils.ThreadSafeList`1.LongCount*
-  name: LongCount
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_LongCount_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.LongCount
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.LongCount
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).LongCount
-  nameWithType: ThreadSafeList<T>.LongCount
-  nameWithType.vb: ThreadSafeList(Of T).LongCount
 - uid: OpenAPI.Utils.ThreadSafeList`1.Remove(`0)
   name: Remove(T)
   href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_Remove__0_
@@ -5868,23 +6119,6 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).RemoveAt
   nameWithType: ThreadSafeList<T>.RemoveAt
   nameWithType.vb: ThreadSafeList(Of T).RemoveAt
-- uid: OpenAPI.Utils.ThreadSafeList`1.TakeAndClear
-  name: TakeAndClear()
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_TakeAndClear
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.TakeAndClear
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.TakeAndClear()
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).TakeAndClear()
-  nameWithType: ThreadSafeList<T>.TakeAndClear()
-  nameWithType.vb: ThreadSafeList(Of T).TakeAndClear()
-- uid: OpenAPI.Utils.ThreadSafeList`1.TakeAndClear*
-  name: TakeAndClear
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_TakeAndClear_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.TakeAndClear
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.TakeAndClear
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).TakeAndClear
-  nameWithType: ThreadSafeList<T>.TakeAndClear
-  nameWithType.vb: ThreadSafeList(Of T).TakeAndClear
 - uid: OpenAPI.Utils.ThreadSafeList`1.TryAdd(`0)
   name: TryAdd(T)
   href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_TryAdd__0_
@@ -5902,42 +6136,6 @@ references:
   fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).TryAdd
   nameWithType: ThreadSafeList<T>.TryAdd
   nameWithType.vb: ThreadSafeList(Of T).TryAdd
-- uid: OpenAPI.Utils.ThreadSafeList`1.TryTake(`0@)
-  name: TryTake(out T)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_TryTake__0__
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.TryTake(`0@)
-  name.vb: TryTake(ByRef T)
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.TryTake(out T)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).TryTake(ByRef T)
-  nameWithType: ThreadSafeList<T>.TryTake(out T)
-  nameWithType.vb: ThreadSafeList(Of T).TryTake(ByRef T)
-- uid: OpenAPI.Utils.ThreadSafeList`1.TryTake*
-  name: TryTake
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_TryTake_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.TryTake
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.TryTake
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).TryTake
-  nameWithType: ThreadSafeList<T>.TryTake
-  nameWithType.vb: ThreadSafeList(Of T).TryTake
-- uid: OpenAPI.Utils.ThreadSafeList`1.TryTakeOneCopyRest(`0@,List{`0}@)
-  name: TryTakeOneCopyRest(out T, out List<T>)
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_TryTakeOneCopyRest__0__List__0___
-  commentId: M:OpenAPI.Utils.ThreadSafeList`1.TryTakeOneCopyRest(`0@,List{`0}@)
-  name.vb: TryTakeOneCopyRest(ByRef T, ByRef List(Of T))
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.TryTakeOneCopyRest(out T, out List<T>)
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).TryTakeOneCopyRest(ByRef T, ByRef List(Of T))
-  nameWithType: ThreadSafeList<T>.TryTakeOneCopyRest(out T, out List<T>)
-  nameWithType.vb: ThreadSafeList(Of T).TryTakeOneCopyRest(ByRef T, ByRef List(Of T))
-- uid: OpenAPI.Utils.ThreadSafeList`1.TryTakeOneCopyRest*
-  name: TryTakeOneCopyRest
-  href: api/OpenAPI.Utils.ThreadSafeList-1.html#OpenAPI_Utils_ThreadSafeList_1_TryTakeOneCopyRest_
-  commentId: Overload:OpenAPI.Utils.ThreadSafeList`1.TryTakeOneCopyRest
-  isSpec: "True"
-  fullName: OpenAPI.Utils.ThreadSafeList<T>.TryTakeOneCopyRest
-  fullName.vb: OpenAPI.Utils.ThreadSafeList(Of T).TryTakeOneCopyRest
-  nameWithType: ThreadSafeList<T>.TryTakeOneCopyRest
-  nameWithType.vb: ThreadSafeList(Of T).TryTakeOneCopyRest
 - uid: OpenAPI.Utils.TickScheduler
   name: TickScheduler
   href: api/OpenAPI.Utils.TickScheduler.html
@@ -6089,6 +6287,19 @@ references:
   isSpec: "True"
   fullName: OpenAPI.World.OpenLevel.EventDispatcher
   nameWithType: OpenLevel.EventDispatcher
+- uid: OpenAPI.World.OpenLevel.OnBlockBreak(BlockBreakEventArgs)
+  name: OnBlockBreak(BlockBreakEventArgs)
+  href: api/OpenAPI.World.OpenLevel.html#OpenAPI_World_OpenLevel_OnBlockBreak_BlockBreakEventArgs_
+  commentId: M:OpenAPI.World.OpenLevel.OnBlockBreak(BlockBreakEventArgs)
+  fullName: OpenAPI.World.OpenLevel.OnBlockBreak(BlockBreakEventArgs)
+  nameWithType: OpenLevel.OnBlockBreak(BlockBreakEventArgs)
+- uid: OpenAPI.World.OpenLevel.OnBlockBreak*
+  name: OnBlockBreak
+  href: api/OpenAPI.World.OpenLevel.html#OpenAPI_World_OpenLevel_OnBlockBreak_
+  commentId: Overload:OpenAPI.World.OpenLevel.OnBlockBreak
+  isSpec: "True"
+  fullName: OpenAPI.World.OpenLevel.OnBlockBreak
+  nameWithType: OpenLevel.OnBlockBreak
 - uid: OpenAPI.World.OpenLevel.OnBlockPlace(BlockPlaceEventArgs)
   name: OnBlockPlace(BlockPlaceEventArgs)
   href: api/OpenAPI.World.OpenLevel.html#OpenAPI_World_OpenLevel_OnBlockPlace_BlockPlaceEventArgs_
@@ -6208,6 +6419,19 @@ references:
   isSpec: "True"
   fullName: OpenAPI.World.OpenLevelManager.GetLevel
   nameWithType: OpenLevelManager.GetLevel
+- uid: OpenAPI.World.OpenLevelManager.GetLevels
+  name: GetLevels
+  href: api/OpenAPI.World.OpenLevelManager.html#OpenAPI_World_OpenLevelManager_GetLevels
+  commentId: P:OpenAPI.World.OpenLevelManager.GetLevels
+  fullName: OpenAPI.World.OpenLevelManager.GetLevels
+  nameWithType: OpenLevelManager.GetLevels
+- uid: OpenAPI.World.OpenLevelManager.GetLevels*
+  name: GetLevels
+  href: api/OpenAPI.World.OpenLevelManager.html#OpenAPI_World_OpenLevelManager_GetLevels_
+  commentId: Overload:OpenAPI.World.OpenLevelManager.GetLevels
+  isSpec: "True"
+  fullName: OpenAPI.World.OpenLevelManager.GetLevels
+  nameWithType: OpenLevelManager.GetLevels
 - uid: OpenAPI.World.OpenLevelManager.HasDefaultLevel
   name: HasDefaultLevel
   href: api/OpenAPI.World.OpenLevelManager.html#OpenAPI_World_OpenLevelManager_HasDefaultLevel
